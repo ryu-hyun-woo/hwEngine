@@ -3,6 +3,7 @@
 
 #include "framework.h"
 #include "hwEngine.h"
+#include <string> 
 
 #define MAX_LOADSTRING 100
 
@@ -110,7 +111,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
    return TRUE;
 }
-
+int gCounter = 0;
 //
 //  함수: WndProc(HWND, UINT, WPARAM, LPARAM)
 //
@@ -140,6 +141,70 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             default:
                 return DefWindowProc(hWnd, message, wParam, lParam);
             }
+        }
+        break;
+    case WM_CREATE:
+        {
+            SetTimer(hWnd, 100, 3000, nullptr);
+            MessageBox(hWnd, L"액티베이트", L"캡션", 0);
+            SetWindowText(hWnd, L"초기값");
+        }
+        break;
+    case WM_KEYDOWN:
+        {
+            if (wParam == 'A')
+            {
+                SetWindowText(hWnd, L"A를 눌렀다");
+            }
+        }
+        break;
+    case WM_KEYUP:
+        {
+            if (wParam == 'A')
+            {
+                SetWindowText(hWnd, L"A를 때었다");
+            }
+        }
+        break;
+    case WM_MOUSEHOVER:
+        {
+            TCHAR buffer[256]{};
+            POINT pt;
+
+            if (GetCursorPos(&pt))
+            {
+                ScreenToClient(hWnd, &pt);
+                std::string pos;
+                
+                pos += std::to_string(pt.x);
+                pos += " ";
+                pos += std::to_string(pt.y);
+
+                std::wstring wpos(pos.begin(), pos.end());
+                
+                SetWindowText(hWnd, wpos.c_str());
+            }
+        }
+        break;
+    case WM_TIMER:
+    {
+        switch (wParam)
+        {
+            case 100:
+            {
+                SetWindowText(hWnd, std::to_wstring(gCounter++).c_str());
+            }
+            break;
+        }
+    }
+    case WM_MOUSEMOVE:
+        {
+            TRACKMOUSEEVENT tme = { 0 };
+            tme.cbSize = sizeof(TRACKMOUSEEVENT);
+            tme.dwFlags = TME_HOVER;
+            tme.hwndTrack = hWnd;
+            tme.dwHoverTime = HOVER_DEFAULT;
+            TrackMouseEvent(&tme);
         }
         break;
     case WM_PAINT:
