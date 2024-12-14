@@ -133,7 +133,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="hwEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="hwEngine.rc" />
@@ -141,11 +141,6 @@
   <ItemGroup>
     <Image Include="hwEngine.ico" />
     <Image Include="small.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\hwEngine_Window\hwEngine_Window.vcxproj">
-      <Project>{23831a89-e507-478b-94f5-94f362b9ad34}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

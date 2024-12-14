@@ -3,14 +3,8 @@
   "WorkspaceRootPath": "C:\\CppWorkspace\\hwEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B8469E7-0CF0-4B23-B345-62AD49012232}|hwEngine.vcxproj|C:\\CppWorkspace\\hwEngine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B8469E7-0CF0-4B23-B345-62AD49012232}|hwEngine.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23831A89-E507-478B-94F5-94F362B9AD34}|..\\hwEngine_Window\\hwEngine_Window.vcxproj|C:\\CppWorkspace\\hwEngine_SOURCE\\hwApplication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23831A89-E507-478B-94F5-94F362B9AD34}|..\\hwEngine_Window\\hwEngine_Window.vcxproj|C:\\CppWorkspace\\hwEngine_SOURCE\\hwApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B8469E7-0CF0-4B23-B345-62AD49012232}|hwEngine.vcxproj|C:\\CppWorkspace\\hwEngine\\hwEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B8469E7-0CF0-4B23-B345-62AD49012232}|hwEngine.vcxproj|solutionrelative:hwEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,43 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "hwApplication.cpp",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine_SOURCE\\hwApplication.cpp",
-              "RelativeDocumentMoniker": "..\\hwEngine_SOURCE\\hwApplication.cpp",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine_SOURCE\\hwApplication.cpp",
-              "RelativeToolTip": "..\\hwEngine_SOURCE\\hwApplication.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-14T02:56:06.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "hwApplication.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine_SOURCE\\hwApplication.h",
-              "RelativeDocumentMoniker": "..\\hwEngine_SOURCE\\hwApplication.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine_SOURCE\\hwApplication.h",
-              "RelativeToolTip": "..\\hwEngine_SOURCE\\hwApplication.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T02:54:55.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAI8AAAAAAAAAAAA0wJ4AAAAEAAAA",
+              "Title": "hwEngine.cpp",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine.cpp",
+              "RelativeDocumentMoniker": "hwEngine.cpp",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine.cpp",
+              "RelativeToolTip": "hwEngine.cpp",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAuwMEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-09T03:51:23.019Z",
               "EditorCaption": ""

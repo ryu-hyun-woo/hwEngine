@@ -5,10 +5,6 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hwEngine", "hwEngine.vcxproj", "{3B8469E7-0CF0-4B23-B345-62AD49012232}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hwEngine_Window", "..\hwEngine_Window\hwEngine_Window.vcxproj", "{23831A89-E507-478B-94F5-94F362B9AD34}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hwEngine_SOURCE", "..\hwEngine_SOURCE\hwEngine_SOURCE.vcxitems", "{FA6CC4C6-F50F-4E49-BC2A-FE57705F59CA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -25,23 +21,11 @@ Global
 		{3B8469E7-0CF0-4B23-B345-62AD49012232}.Release|x64.Build.0 = Release|x64
 		{3B8469E7-0CF0-4B23-B345-62AD49012232}.Release|x86.ActiveCfg = Release|Win32
 		{3B8469E7-0CF0-4B23-B345-62AD49012232}.Release|x86.Build.0 = Release|Win32
-		{23831A89-E507-478B-94F5-94F362B9AD34}.Debug|x64.ActiveCfg = Debug|x64
-		{23831A89-E507-478B-94F5-94F362B9AD34}.Debug|x64.Build.0 = Debug|x64
-		{23831A89-E507-478B-94F5-94F362B9AD34}.Debug|x86.ActiveCfg = Debug|Win32
-		{23831A89-E507-478B-94F5-94F362B9AD34}.Debug|x86.Build.0 = Debug|Win32
-		{23831A89-E507-478B-94F5-94F362B9AD34}.Release|x64.ActiveCfg = Release|x64
-		{23831A89-E507-478B-94F5-94F362B9AD34}.Release|x64.Build.0 = Release|x64
-		{23831A89-E507-478B-94F5-94F362B9AD34}.Release|x86.ActiveCfg = Release|Win32
-		{23831A89-E507-478B-94F5-94F362B9AD34}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BCCF370A-B881-409D-8FB5-DBF8826A8530}
-	EndGlobalSection
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\hwEngine_SOURCE\hwEngine_SOURCE.vcxitems*{23831a89-e507-478b-94f5-94f362b9ad34}*SharedItemsImports = 4
-		..\hwEngine_SOURCE\hwEngine_SOURCE.vcxitems*{fa6cc4c6-f50f-4e49-bc2a-fe57705f59ca}*SharedItemsImports = 9
 	EndGlobalSection
 EndGlobal
