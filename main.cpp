@@ -4,6 +4,7 @@
 #include "framework.h"
 #include "hwEngine.h"
 #include <string> 
+#include "..//hwEngine_SOURCE/hwApplication.h"
 
 #define MAX_LOADSTRING 100
 
@@ -112,6 +113,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    return TRUE;
 }
 int gCounter = 0;
+hwApplication hwApp;
 //
 //  함수: WndProc(HWND, UINT, WPARAM, LPARAM)
 //
@@ -147,70 +149,104 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         {
             SetTimer(hWnd, 100, 3000, nullptr);
             MessageBox(hWnd, L"액티베이트", L"캡션", 0);
-            SetWindowText(hWnd, L"초기값");
-        }
-        break;
-    case WM_KEYDOWN:
-        {
-            if (wParam == 'A')
-            {
-                SetWindowText(hWnd, L"A를 눌렀다");
-            }
-        }
-        break;
-    case WM_KEYUP:
-        {
-            if (wParam == 'A')
-            {
-                SetWindowText(hWnd, L"A를 때었다");
-            }
-        }
-        break;
-    case WM_MOUSEHOVER:
-        {
-            TCHAR buffer[256]{};
-            POINT pt;
 
-            if (GetCursorPos(&pt))
-            {
-                ScreenToClient(hWnd, &pt);
-                std::string pos;
-                
-                pos += std::to_string(pt.x);
-                pos += " ";
-                pos += std::to_string(pt.y);
+            std::string test = hwApp.Test();
+            std::wstring wTest(test.begin(), test.end());
 
-                std::wstring wpos(pos.begin(), pos.end());
-                
-                SetWindowText(hWnd, wpos.c_str());
-            }
+            SetWindowText(hWnd, wTest.c_str());
         }
         break;
-    case WM_TIMER:
-    {
-        switch (wParam)
-        {
-            case 100:
-            {
-                SetWindowText(hWnd, std::to_wstring(gCounter++).c_str());
-            }
-            break;
-        }
-    }
-    case WM_MOUSEMOVE:
-        {
-            TRACKMOUSEEVENT tme = { 0 };
-            tme.cbSize = sizeof(TRACKMOUSEEVENT);
-            tme.dwFlags = TME_HOVER;
-            tme.hwndTrack = hWnd;
-            tme.dwHoverTime = HOVER_DEFAULT;
-            TrackMouseEvent(&tme);
-        }
-        break;
+    //case WM_KEYDOWN:
+    //    {
+    //        if (wParam == 'A')
+    //        {
+    //            SetWindowText(hWnd, L"A를 눌렀다");
+    //        }
+    //    }
+    //    break;
+    //case WM_KEYUP:
+    //    {
+    //        if (wParam == 'A')
+    //        {
+    //            SetWindowText(hWnd, L"A를 때었다");
+    //        }
+    //    }
+    //    break;
+    //case WM_MOUSEHOVER:
+    //    {
+    //        TCHAR buffer[256]{};
+    //        POINT pt;
+
+    //        if (GetCursorPos(&pt))
+    //        {
+    //            ScreenToClient(hWnd, &pt);
+    //            std::string pos;
+    //            
+    //            pos += std::to_string(pt.x);
+    //            pos += " ";
+    //            pos += std::to_string(pt.y);
+
+    //            std::wstring wpos(pos.begin(), pos.end());
+    //            
+    //            SetWindowText(hWnd, wpos.c_str());
+    //        }
+    //    }
+    //    break;
+    //case WM_TIMER:
+    //{
+    //    switch (wParam)
+    //    {
+    //        case 100:
+    //        {
+    //            SetWindowText(hWnd, std::to_wstring(gCounter++).c_str());
+    //        }
+    //        break;
+    //    }
+    //}
+    //case WM_MOUSEMOVE:
+    //    {
+    //        TRACKMOUSEEVENT tme = { 0 };
+    //        tme.cbSize = sizeof(TRACKMOUSEEVENT);
+    //        tme.dwFlags = TME_HOVER;
+    //        tme.hwndTrack = hWnd;
+    //        tme.dwHoverTime = HOVER_DEFAULT;
+    //        TrackMouseEvent(&tme);
+    //    }
+    //    break;
     case WM_PAINT:
         {
             PAINTSTRUCT ps;
             HDC hdc = BeginPaint(hWnd, &ps);
+
+            HBRUSH greenBrush = CreateSolidBrush(RGB(0, 255, 0));
+            HBRUSH redBrush = CreateSolidBrush(RGB(255, 0, 0));
+            HBRUSH yellowBrush = CreateSolidBrush(RGB(255, 255, 0));
+            HBRUSH oldBrush; 
+
+            oldBrush = (HBRUSH)SelectObject(hdc, greenBrush);
+            Rectangle(hdc, 150, 150, 200, 200);
+            SelectObject(hdc, oldBrush);
+
+            oldBrush = (HBRUSH)SelectObject(hdc, redBrush);
+            Rectangle(hdc, 300, 300, 350, 350);
+            SelectObject(hdc, oldBrush);
+
+            oldBrush = (HBRUSH)SelectObject(hdc, yellowBrush);
+            Rectangle(hdc, 500, 500, 550, 550);
+            SelectObject(hdc, oldBrush);
+
+            HPEN redPen = CreatePen(PS_DOT, 2, RGB(255, 0, 0));
+            HPEN oldPen = (HPEN)SelectObject(hdc, redPen);
+
+            Ellipse(hdc, 500, 500, 550, 550);
+            
+            SelectObject(hdc, oldPen);
+            DeleteObject(redPen);
+
+            DeleteObject(greenBrush);
+            DeleteObject(redBrush);
+            DeleteObject(yellowBrush);
+
             // TODO: 여기에 hdc를 사용하는 그리기 코드를 추가합니다...
             EndPaint(hWnd, &ps);
         }
