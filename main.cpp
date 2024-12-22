@@ -124,7 +124,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    hInst = hInstance; // 인스턴스 핸들을 전역 변수에 저장합니다.
 
    HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
-      CW_USEDEFAULT, 0, CW_USEDEFAULT, 0, nullptr, nullptr, hInstance, nullptr);
+      CW_USEDEFAULT, CW_USEDEFAULT, 1600, 900, nullptr, nullptr, hInstance, nullptr);
 
    if (!hWnd)
    {
@@ -134,7 +134,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    ShowWindow(hWnd, nCmdShow);
    UpdateWindow(hWnd);
 
-   application.Initialize(hWnd);
+   application.Initialize(hWnd, 1600, 900);
 
    return TRUE;
 }
@@ -171,9 +171,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         break;
     case WM_CREATE:
         {
-            SetTimer(hWnd, 100, 3000, nullptr);
-            MessageBox(hWnd, L"액티베이트", L"캡션", 0);
-            SetWindowText(hWnd, L"초기값");
+            //SetTimer(hWnd, 100, 3000, nullptr);
+            //MessageBox(hWnd, L"액티베이트", L"캡션", 0);
+            //SetWindowText(hWnd, L"초기값");
         }
         break;
     case WM_KEYDOWN:

@@ -3,22 +3,53 @@
 namespace hw
 {
 	Application::Application()
-		: mHwnd(nullptr)
+		: mWidth(0)
+		, mHeight(0)
+		, mHwnd(nullptr)
 		, mHdc(nullptr)
-		, mSpeed(0.0f)
-		, mX(0.0f)
-		, mY(0.0f)
+		, mBackHdc(nullptr)
+		, mNewBitmap(nullptr)
+		, mOldBitmap(nullptr)
 	{
 	}
 
 	Application::~Application()
 	{
+		ReleaseDC(mHwnd, mHdc);
+		SelectObject(mBackHdc, mOldBitmap);
+		DeleteDC(mBackHdc);
+		DeleteObject(mNewBitmap);
 	}
 
-	void Application::Initialize(HWND hWnd)
+	void Application::Initialize(HWND hWnd, UINT width, UINT height)
 	{
 		mHwnd = hWnd;
 		mHdc = GetDC(hWnd);
+		CreateBackBuffer(width, height);
+
+		mWidth = width;
+		mHeight = height;
+
+		mInput.Initialize();
+
+		//Player
+		mPlayer.SetPosition(100.f, 100.f);
+		mPlayer.SetSize(100.f, 100.f);
+		mPlayer.SetSpeed(3.0f);
+		mPlayer.SetColor(RGB(255, 255, 0));
+
+		//Enemy
+		mEnemy.SetPosition(700.f, 200.f);
+		mEnemy.SetSize(150.f, 150.f);
+		mEnemy.SetSpeed(5.0f);
+		mEnemy.SetColor(RGB(255, 0, 0));
+	}
+
+	void Application::CreateBackBuffer(UINT width, UINT height)
+	{
+		mBackHdc = CreateCompatibleDC(mHdc);
+		mNewBitmap = CreateCompatibleBitmap(mHdc, width, height);
+		mOldBitmap = (HBITMAP)SelectObject(mBackHdc, mNewBitmap);
 	}
 
 	void Application::Run()
@@ -30,47 +61,24 @@ namespace hw
 
 	void Application::Update()
 	{
-		mSpeed += 0.01f;
-
-		if (GetAsyncKeyState(VK_LEFT) & 0x8000)
-		{
-			mX -= 0.01f;
-		}
-
-		if (GetAsyncKeyState(VK_RIGHT) & 0x8000)
-		{
-			mX += 0.01f;
-		}
-
-		if (GetAsyncKeyState(VK_UP) & 0x8000)
-		{
-			mY -= 0.01f;
-		}
-
-		if (GetAsyncKeyState(VK_DOWN) & 0x8000)
-		{
-			mY += 0.01f;
-		}
+		mInput.Update();
+		mCollision.Update();
+		mPlayer.Update();
+		mEnemy.Update();
 	}
 
 	void Application::LateUpdate()
 	{
+		mPlayer.LateUpdate();
+		mEnemy.LateUpdate();
 	}
 
 	void Application::Render()
 	{
-		HBRUSH blueBrush = CreateSolidBrush(RGB(0, 0, 255));
-		HBRUSH oldBrush = (HBRUSH)SelectObject(mHdc, blueBrush);
+		Rectangle(mBackHdc, 0, 0, mWidth, mHeight);
+		mPlayer.Render(mBackHdc);
+		mEnemy.Render(mBackHdc);
 
-		HPEN redPen = CreatePen(PS_SOLID, 2, RGB(255, 0, 0));
-		HPEN oldPen = (HPEN)SelectObject(mHdc, redPen);
-
-		Rectangle(mHdc, 100 + mX, 100 + mY, 200 + mX, 200 + mY);
-
-		SelectObject(mHdc, oldBrush);
-		SelectObject(mHdc, oldPen);
-		
-		DeleteObject(blueBrush);
-		DeleteObject(redPen);
+		BitBlt(mHdc, 0, 0, mWidth, mHeight, mBackHdc, 0, 0, SRCCOPY);
 	}
 }

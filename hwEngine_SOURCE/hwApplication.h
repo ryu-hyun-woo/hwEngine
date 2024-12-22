@@ -1,5 +1,11 @@
 #pragma once
 #include "CommonInclude.h"
+#include "GameObject.h"
+#include "Enemy.h"
+#include "Input.h"
+#include "Bullet.h"
+#include "Player.h"
+#include "Collision.h"
 
 namespace hw
 {
@@ -9,7 +15,8 @@ namespace hw
 		Application();
 		~Application();
 
-		void Initialize(HWND hWnd);
+		void Initialize(HWND hWnd, UINT width, UINT height);
+		void CreateBackBuffer(UINT width, UINT height);
 		void Run();
 
 		void Update();
@@ -17,11 +24,21 @@ namespace hw
 		void Render();
 
 	private:
+		UINT mWidth;
+		UINT mHeight;
+
 		HWND mHwnd;
 		HDC mHdc;
 
-		float mSpeed;
-		float mX;
-		float mY;
+		HDC mBackHdc;
+		HBITMAP mNewBitmap;
+		HBITMAP mOldBitmap;
+
+		Collision mCollision;
+
+		Player mPlayer;
+		Enemy mEnemy;
+
+		Input mInput;
 	};
 }
