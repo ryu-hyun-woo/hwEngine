@@ -5,7 +5,8 @@
 #include "Input.h"
 #include "Bullet.h"
 #include "Player.h"
-#include "Collision.h"
+#include "CollisionManager.h"
+#include "SceneManager.h"
 
 namespace hw
 {
@@ -34,10 +35,16 @@ namespace hw
 		HBITMAP mNewBitmap;
 		HBITMAP mOldBitmap;
 
-		Collision mCollision;
+		CollisionManager mCollision;
 
-		Player mPlayer;
-		Enemy mEnemy;
+		Player mPlayer1;
+		Enemy mEnemy1;
+
+		Player mPlayer2;
+		Enemy mEnemy2;
+
+		Player mPlayer3;
+		Enemy mEnemy3;
 
 		Input mInput;
 	};

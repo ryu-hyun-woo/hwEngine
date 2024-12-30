@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)hwApplication.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Bullet.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Enemy.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Player.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scene.cpp">
+      <Filter>Scence</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CollisionManager.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SceneManager.cpp">
+      <Filter>Scence</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)hwApplication.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ICollision.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IUpdate.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IRender.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CommonInclude.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Bullet.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enemy.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Player.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scene.h">
+      <Filter>Scence</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SceneManager.h">
+      <Filter>Scence</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ILateUpdate.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)HwMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IInitialize.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CollisionManager.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IRelease.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{183f36fd-0d2b-48fe-b02b-e08d56fc97a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{486f71b1-1227-47fd-9ab6-809d64e7844c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{a2770f50-5b7a-4595-a4d2-bc58ccd318bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{58cd351e-f461-48c8-a9f9-90eb7959a0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{e5fcaa6b-d1a9-4c36-8a65-b90218b0caa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scence">
+      <UniqueIdentifier>{430af55a-d71c-4378-8980-0a5fb4a9f62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{d702b160-987b-4df1-aebe-aed48abb8eb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

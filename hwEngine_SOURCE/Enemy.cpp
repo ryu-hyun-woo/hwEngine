@@ -1,9 +1,6 @@
 #include "Enemy.h"
 #include "Enemy.h"
-#include "Enemy.h"
-#include "Enemy.h"
-#include "Enemy.h"
-#include "Collision.h"
+#include "CollisionManager.h"
 #include <cstdlib>
 #include <ctime>
 #include <memory>
@@ -14,7 +11,12 @@ namespace hw
 		: mCount(0)
 		, mDirection(Direction::None)
 	{
-		Collision::SetCollisionObject(this);
+	}
+
+	void Enemy::Initialize()
+	{
+		SetActive(true);
+		CollisionManager::RegisterCollisionObject(this);
 		srand((unsigned int)time(nullptr));
 		mSpeed = 3.0f;
 	}
@@ -28,27 +30,38 @@ namespace hw
 		else
 		{
 			float move = 0.1f * mSpeed;
+
 			if (mDirection == Direction::Left)
 			{
-				mX -= move;
+				mPosition.mX -= move;
 			}
 			else if (mDirection == Direction::Right)
 			{
-				mX += move;
+				mPosition.mX += move;
 			}
 			else if (mDirection == Direction::Top)
 			{
-				mY -= move;
+				mPosition.mY -= move;
 			}
 			else if (mDirection == Direction::Bottom)
 			{
-				mY += move;
+				mPosition.mY += move;
 			}
 
 			OffsetOutLine();
 		}
 
 		mCount--;
+	}
+
+	void Enemy::OnCollision()
+	{
+		SetActive(false);
+	}
+
+	void Enemy::Release()
+	{
+		SetActive(false);
 	}
 
 	void Enemy::SetRandom()
@@ -59,24 +72,24 @@ namespace hw
 
 	void Enemy::OffsetOutLine()
 	{
-		if (mX < 0)
+		if (mPosition.mX < 0)
 		{
-			mX = 0;
+			mPosition.mX = 0;
 			mCount = 0;
 		}
-		else if (mX + mWidth > 1600)
+		else if (mPosition.mX + mSize.mX > SCREEN_SIZE_X)
 		{
-			mX = 1600 - mWidth;
+			mPosition.mX = SCREEN_SIZE_X - mSize.mX;
 			mCount = 0;
 		}
-		else if (mY < 0)
+		else if (mPosition.mY < 0)
 		{
-			mY = 0;
+			mPosition.mY = 0;
 			mCount = 0;
 		}
-		else if (mY + mHeight > 900)
+		else if (mPosition.mY + mSize.mY > SCREEN_SIZE_Y)
 		{
-			mY = 900 - mHeight;
+			mPosition.mY = SCREEN_SIZE_Y - mSize.mY;
 			mCount = 0;
 		}
 	}

@@ -1,30 +1,15 @@
 #include "GameObject.h"
 #include "GameObject.h"
+#include "GameObject.h"
 
 namespace hw
 { 
 	int sObjectId = 0;
 
 	GameObject::GameObject()
-		: mX(0)
-		, mY(0)
-		, mWidth(0)
-		, mHeight(0)
-		, mSpeed(0)
+		: mSpeed(0)
 		, mColor(RGB(0,0,0))
-		, mActive(true)
-	{
-	}
-
-	GameObject::~GameObject()
-	{
-	}
-
-	void GameObject::Update()
-	{
-	}
-
-	void GameObject::LateUpdate()
+		, mActive(false)
 	{
 	}
 
@@ -41,7 +26,10 @@ namespace hw
 		HPEN redPen = CreatePen(PS_SOLID, 2, mColor);
 		HPEN oldPen = (HPEN)SelectObject(hdc, redPen);
 
-		Rectangle(hdc, (int)mX, (int)mY, (int)(mX + mWidth), (int)(mY + mHeight));
+		Rectangle(hdc, (int)mPosition.mX, 
+						(int)mPosition.mY, 
+						(int)(mPosition.mX + mSize.mX), 
+						(int)(mPosition.mY + mSize.mY));
 
 		SelectObject(hdc, oldBrush);
 		SelectObject(hdc, oldPen);

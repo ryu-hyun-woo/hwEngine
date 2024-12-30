@@ -15,22 +15,32 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)Bullet.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)Collision.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CollisionManager.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)CommonInclude.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Enemy.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)hwApplication.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)ICollision.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IInitialize.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ILateUpdate.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Input.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IRelease.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IRender.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IUpdate.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Player.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SceneManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)HwMath.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)Bullet.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)Collision.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CollisionManager.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)Enemy.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)hwApplication.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)Input.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)Player.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SceneManager.cpp" />
   </ItemGroup>
 </Project>

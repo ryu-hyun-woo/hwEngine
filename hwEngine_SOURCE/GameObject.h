@@ -1,57 +1,33 @@
 #pragma once
 #include "CommonInclude.h"
-#include "Input.h"
+#include "IUpdate.h"
+#include "IRender.h"
+#include "ILateUpdate.h"
 
-namespace hw
+namespace hw 
 {
-	class GameObject
+	class GameObject : public IRender 
 	{
 	public:
 		GameObject();
-		~GameObject();
+		~GameObject() = default;
 
-		void Update();
-		void Render(HDC hdc);
-		void LateUpdate();
+		void Render(HDC hdc) override;
 
-		void SetPosition(float x, float y)
-		{
-			mX = x;
-			mY = y;
-		}
-
-		void SetSize(float width, float height)
-		{
-			mWidth = width;
-			mHeight = height;
-		}
-
-		void SetSpeed(float speed)
-		{
-			mSpeed = speed;
-		}
-
-		void SetColor(COLORREF color)
-		{
-			mColor = color;
-		}
-
-		void SetActive(bool active)
-		{
-			mActive = active;
-		}
+		void SetPosition(const Vector2& position) { mPosition = position; }
+		void SetSize(const Vector2& size) { mSize = size; }
+		void SetSpeed(float speed) { mSpeed = speed; }
+		void SetColor(COLORREF color) { mColor = color; }
+		void SetActive(bool active) { mActive = active; }
 
 		bool GetActive() const { return mActive; }
-		float GetPositionX() const { return mX; }
-		float GetPositionY() const { return mY; }
-		float GetWidth() const { return mWidth; }
-		float GetHeight() const { return mHeight; }
+		const Vector2& GetPosition() const { return mPosition; }
+		const Vector2& GetSize() const { return mSize; }
 
 	protected:
-		float mX;
-		float mY;
-		float mWidth;
-		float mHeight;
+		Vector2 mPosition;
+		Vector2 mSize;
+
 		float mSpeed;
 		COLORREF mColor;
 		bool mActive;

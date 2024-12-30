@@ -6,7 +6,6 @@ namespace hw
 	{
 	public:
 		virtual ~ICollision() = default;
-
 		virtual void OnCollision() = 0;
 	};
 }

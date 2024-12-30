@@ -6,9 +6,13 @@ namespace hw
 {
 	Bullet::Bullet()
 	{
+	}
+
+	void Bullet::Initialize()
+	{
 		SetSpeed(5.f);
-		SetSize(10.f, 10.f);
-		SetActive(false);
+		SetSize({ 10.f, 10.f });
+		CollisionManager::RegisterCollisionObject(this);
 	}
 
 	void Bullet::Update()
@@ -18,26 +22,32 @@ namespace hw
 			return;
 		}
 
-		if (mActive)
-		{
-			mX += mSpeed;
-		}
+		mPosition.mX += mSpeed;
 
-		if (mX > 1600)
+		if (mPosition.mX > SCREEN_SIZE_X)
 		{
 			SetActive(false);
 		}
 	}
 
-	void Bullet::SetPosition(float x, float y)
+	void Bullet::OnCollision()
 	{
-		mX = x;
-		mY = y;
+		SetActive(false);
 	}
 
-	void Bullet::Fire(float x, float y)
+	void Bullet::Release()
+	{
+		SetActive(false);
+	}
+
+	void Bullet::SetPosition(const Vector2& position)
+	{
+		mPosition = position;
+	}
+
+	void Bullet::Fire(const Vector2& position)
 	{
 		SetActive(true);
-		SetPosition(x, y);
+		SetPosition(position);
 	}
 }

@@ -1,22 +1,16 @@
 #include "Player.h"
 #include "Player.h"
+#include "Player.h"
+#include "Player.h"
 #include "Input.h"
-#include "Collision.h"
+#include "CollisionManager.h"
+#include "SceneManager.h"
 
 namespace hw
 {
 	Player::Player()
 		: mBulletIndex(0)
 	{
-		//for (const auto& bullet : mBullets)
-		//{
-		//	Collision::SetCollisionObject(bullet);
-		//}
-
-		for (int i = 0; i < 50; i++)
-		{
-			Collision::SetCollisionObject(&mBullets[i]);
-		}
 	}
 
 	Player::~Player()
@@ -25,30 +19,58 @@ namespace hw
 
 	void Player::Fire()
 	{
-		mBullets[mBulletIndex % 50].Fire(mX + mWidth / 2, mY + mHeight / 2);
+		Vector2 firePosition = { mPosition.mX + mSize.mX / 2, 
+							  	 mPosition.mY + mSize.mY / 2 };
+		mBullets[mBulletIndex % 50].Fire(firePosition);
 		mBulletIndex++;
+	}
+
+	void Player::Initialize()
+	{
+		SetActive(true);
+		for (auto& bullet : mBullets)
+		{
+			bullet.Initialize();
+		}
 	}
 
 	void Player::Update()
 	{
+		float move = 0.1f * mSpeed;
+
 		if (Input::IsKeyPressed('A'))
 		{
-			mX -= 0.1f * mSpeed;
+			mPosition.mX -= move;
 		}
 
 		if (Input::IsKeyPressed('D'))
 		{
-			mX += 0.1f * mSpeed;
+			mPosition.mX += move;
 		}
 
 		if (Input::IsKeyPressed('W'))
 		{
-			mY -= 0.1f * mSpeed;
+			mPosition.mY -= 0.1f * mSpeed;
 		}
 
 		if (Input::IsKeyPressed('S'))
 		{
-			mY += 0.1f * mSpeed;
+			mPosition.mY += 0.1f * mSpeed;
+		}
+
+		if (Input::IsKeyPressed('1'))
+		{
+			SceneManager::LoadScene("TITLE")->Initialize();
+		}
+
+		if (Input::IsKeyPressed('2'))
+		{
+			SceneManager::LoadScene("GAME")->Initialize();
+		}
+
+		if (Input::IsKeyPressed('3'))
+		{
+			SceneManager::LoadScene("END")->Initialize();
 		}
 
 		if (Input::IsKeyDown(VK_SPACE))
@@ -77,5 +99,10 @@ namespace hw
 				bullet.Render(hdc);
 			}
 		}
+	}
+
+	void Player::Release()
+	{
+		SetActive(false);
 	}
 }

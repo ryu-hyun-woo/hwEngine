@@ -3,7 +3,7 @@
 namespace hw
 {
 	char keyCode[] = {
-		'Q', 'W', 'E', 'R', 'A', 'S', 'D', 'F',
+		'Q', 'W', 'E', 'R', 'A', 'S', 'D', 'F', '1', '2', '3',
 		VK_LEFT, VK_RIGHT, VK_DOWN, VK_UP, VK_SPACE
 	};
 
