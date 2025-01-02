@@ -16,6 +16,7 @@ namespace hw
 	public:
 		Enemy();
 		
+		const GameObject& GetGameObject() const override { return *this; }
 		void Initialize() override;
 		void Update() override;
 		void OnCollision() override;

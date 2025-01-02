@@ -3,58 +3,6 @@
   "WorkspaceRootPath": "C:\\CppWorkspace\\hwEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\hwApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\hwApplication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -71,16 +19,28 @@
       "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\CommonInclude.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CollisionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\CollisionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CollisionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\CollisionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\HWENGINE_SOURCE\\ICOLLISION.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:HWENGINE_SOURCE\\ICOLLISION.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IRelease.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\IRelease.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\ILateUpdate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\ILateUpdate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IInitialize.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\IInitialize.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IRender.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -91,20 +51,60 @@
       "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\IUpdate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\HWENGINE_SOURCE\\ICOLLISION.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:HWENGINE_SOURCE\\ICOLLISION.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IInitialize.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\IInitialize.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\ILateUpdate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\ILateUpdate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\HwMath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\HwMath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\hwApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8A903C2-AE40-4DD9-8B18-53A27C97D38E}|hwEngine_SOURCE\\hwEngine_SOURCE.vcxitems|solutionrelative:hwEngine_SOURCE\\hwApplication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\cmath||{3B902123-F8A7-4915-9F01-361F908088D0}"
@@ -131,293 +131,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SceneManager.cpp",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.cpp",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\SceneManager.cpp",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.cpp",
-              "RelativeToolTip": "hwEngine_SOURCE\\SceneManager.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-29T19:16:36.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Scene.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Scene.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\Scene.h",
-              "ViewState": "AQIAABQAAAAAAAAAAAAtwB0AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-29T14:38:34.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SceneManager.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\SceneManager.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\SceneManager.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-29T14:55:44.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Input.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Input.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\Input.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-21T04:04:51.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Input.cpp",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.cpp",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Input.cpp",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.cpp",
-              "RelativeToolTip": "hwEngine_SOURCE\\Input.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-21T04:08:30.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Player.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\Player.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-21T10:34:36.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "hwApplication.cpp",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.cpp",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\hwApplication.cpp",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.cpp",
-              "RelativeToolTip": "hwEngine_SOURCE\\hwApplication.cpp",
-              "ViewState": "AQIAADwAAAAAAAAAAAAQwEwAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-21T02:23:28.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Scene.cpp",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.cpp",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Scene.cpp",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.cpp",
-              "RelativeToolTip": "hwEngine_SOURCE\\Scene.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA0AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-29T14:45:14.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.cpp",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Player.cpp",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.cpp",
-              "RelativeToolTip": "hwEngine_SOURCE\\Player.cpp",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEMAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-21T11:06:38.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "hwApplication.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\hwApplication.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\hwApplication.h",
-              "ViewState": "AQIAABgAAAAAAAAAAAAtwC0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T04:32:32.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameObject.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\GameObject.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\GameObject.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-21T02:07:54.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GameObject.cpp",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.cpp",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\GameObject.cpp",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.cpp",
-              "RelativeToolTip": "hwEngine_SOURCE\\GameObject.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-21T02:11:29.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Enemy.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Enemy.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Enemy.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Enemy.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\Enemy.h",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-21T07:47:47.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Enemy.cpp",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Enemy.cpp",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Enemy.cpp",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Enemy.cpp",
-              "RelativeToolTip": "hwEngine_SOURCE\\Enemy.cpp",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAtwD4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-21T08:06:17.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Bullet.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Bullet.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Bullet.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Bullet.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\Bullet.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-21T08:21:36.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Bullet.cpp",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Bullet.cpp",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Bullet.cpp",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Bullet.cpp",
-              "RelativeToolTip": "hwEngine_SOURCE\\Bullet.cpp",
-              "ViewState": "AQIAABYAAAAAAAAAAAAtwCUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-21T09:56:40.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CommonInclude.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CommonInclude.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\CommonInclude.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CommonInclude.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\CommonInclude.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T04:34:46.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CollisionManager.cpp",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CollisionManager.cpp",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\CollisionManager.cpp",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CollisionManager.cpp",
-              "RelativeToolTip": "hwEngine_SOURCE\\CollisionManager.cpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-21T11:46:44.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CollisionManager.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CollisionManager.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\CollisionManager.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CollisionManager.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\CollisionManager.h",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAtwBYAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-21T14:05:57.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IRelease.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IRelease.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\IRelease.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IRelease.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\IRelease.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-30T01:29:45.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IRender.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IRender.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\IRender.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IRender.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\IRender.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-29T15:02:04.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IUpdate.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IUpdate.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\IUpdate.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IUpdate.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\IUpdate.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-29T15:01:19.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "ICollision.h",
               "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\ICollision.h",
               "RelativeDocumentMoniker": "hwEngine_SOURCE\\ICollision.h",
@@ -430,20 +144,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IInitialize.h",
-              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IInitialize.h",
-              "RelativeDocumentMoniker": "hwEngine_SOURCE\\IInitialize.h",
-              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IInitialize.h",
-              "RelativeToolTip": "hwEngine_SOURCE\\IInitialize.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-29T15:41:38.914Z",
+              "DocumentIndex": 5,
+              "Title": "CollisionManager.cpp",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CollisionManager.cpp",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\CollisionManager.cpp",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CollisionManager.cpp",
+              "RelativeToolTip": "hwEngine_SOURCE\\CollisionManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-21T11:46:44.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 1,
+              "Title": "Bullet.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Bullet.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Bullet.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Bullet.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\Bullet.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T08:21:36.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bullet.cpp",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Bullet.cpp",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Bullet.cpp",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Bullet.cpp",
+              "RelativeToolTip": "hwEngine_SOURCE\\Bullet.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-21T09:56:40.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollisionManager.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CollisionManager.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\CollisionManager.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CollisionManager.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\CollisionManager.h",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAtwBYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T14:05:57.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommonInclude.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CommonInclude.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\CommonInclude.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\CommonInclude.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\CommonInclude.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-14T04:34:46.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Enemy.cpp",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Enemy.cpp",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Enemy.cpp",
+              "RelativeToolTip": "hwEngine_SOURCE\\Enemy.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-21T08:06:17.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRelease.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IRelease.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\IRelease.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IRelease.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\IRelease.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-30T01:29:45.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ILateUpdate.h",
               "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\ILateUpdate.h",
               "RelativeDocumentMoniker": "hwEngine_SOURCE\\ILateUpdate.h",
@@ -456,7 +248,180 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 9,
+              "Title": "IInitialize.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IInitialize.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\IInitialize.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IInitialize.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\IInitialize.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-29T15:41:38.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRender.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IRender.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\IRender.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IRender.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\IRender.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-29T15:02:04.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUpdate.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IUpdate.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\IUpdate.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\IUpdate.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\IUpdate.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-29T15:01:19.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SceneManager.cpp",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.cpp",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\SceneManager.cpp",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.cpp",
+              "RelativeToolTip": "hwEngine_SOURCE\\SceneManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-29T19:16:36.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SceneManager.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\SceneManager.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\SceneManager.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\SceneManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-29T14:55:44.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Scene.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Scene.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\Scene.h",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-29T14:38:34.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Scene.cpp",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.cpp",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Scene.cpp",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Scene.cpp",
+              "RelativeToolTip": "hwEngine_SOURCE\\Scene.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-29T14:45:14.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameObject.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\GameObject.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\GameObject.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T02:07:54.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GameObject.cpp",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.cpp",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\GameObject.cpp",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\GameObject.cpp",
+              "RelativeToolTip": "hwEngine_SOURCE\\GameObject.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-21T02:11:29.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Player.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\Player.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T10:34:36.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.cpp",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Player.cpp",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Player.cpp",
+              "RelativeToolTip": "hwEngine_SOURCE\\Player.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-21T11:06:38.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Input.cpp",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.cpp",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Input.cpp",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.cpp",
+              "RelativeToolTip": "hwEngine_SOURCE\\Input.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-21T04:08:30.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Input.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Input.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Input.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\Input.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T04:04:51.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Enemy.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\Enemy.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\Enemy.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\Enemy.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T07:47:47.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "HwMath.h",
               "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\HwMath.h",
               "RelativeDocumentMoniker": "hwEngine_SOURCE\\HwMath.h",
@@ -464,8 +429,31 @@
               "RelativeToolTip": "hwEngine_SOURCE\\HwMath.h",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-29T15:08:11.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T15:08:11.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "hwApplication.cpp",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.cpp",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\hwApplication.cpp",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.cpp",
+              "RelativeToolTip": "hwEngine_SOURCE\\hwApplication.cpp",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAQwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-21T02:23:28.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "hwApplication.h",
+              "DocumentMoniker": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.h",
+              "RelativeDocumentMoniker": "hwEngine_SOURCE\\hwApplication.h",
+              "ToolTip": "C:\\CppWorkspace\\hwEngine\\hwEngine_SOURCE\\hwApplication.h",
+              "RelativeToolTip": "hwEngine_SOURCE\\hwApplication.h",
+              "ViewState": "AQIAABgAAAAAAAAAAAAtwC0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-14T04:32:32.699Z"
             },
             {
               "$type": "Document",

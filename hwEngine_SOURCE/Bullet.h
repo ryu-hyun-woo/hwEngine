@@ -20,6 +20,7 @@ namespace hw
 		void Update() override;
 		void OnCollision() override;
 		void Release() override;
+		const GameObject& GetGameObject() const override { return *this; }
 
 		void SetPosition(const Vector2& position);
 		void Fire(const Vector2& position);

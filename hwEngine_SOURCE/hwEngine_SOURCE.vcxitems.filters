@@ -18,13 +18,13 @@
       <Filter>GameObject</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)Scene.cpp">
-      <Filter>Scence</Filter>
+      <Filter>Scene</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)CollisionManager.cpp">
       <Filter>Collision</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)SceneManager.cpp">
-      <Filter>Scence</Filter>
+      <Filter>Scene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -57,10 +57,10 @@
       <Filter>GameObject</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)Scene.h">
-      <Filter>Scence</Filter>
+      <Filter>Scene</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)SceneManager.h">
-      <Filter>Scence</Filter>
+      <Filter>Scene</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)ILateUpdate.h">
       <Filter>Interface</Filter>
@@ -94,11 +94,11 @@
     <Filter Include="Input">
       <UniqueIdentifier>{e5fcaa6b-d1a9-4c36-8a65-b90218b0caa6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Scence">
-      <UniqueIdentifier>{430af55a-d71c-4378-8980-0a5fb4a9f62b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Collision">
       <UniqueIdentifier>{d702b160-987b-4df1-aebe-aed48abb8eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{430af55a-d71c-4378-8980-0a5fb4a9f62b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

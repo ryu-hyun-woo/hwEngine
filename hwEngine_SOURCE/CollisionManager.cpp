@@ -2,11 +2,11 @@
 
 namespace hw
 {
-	std::vector<GameObject*> CollisionManager::mGameObjects = {};
+	std::vector<ICollision*> CollisionManager::mCollisionObjects = {};
 	
 	CollisionManager::CollisionManager()
 	{
-		mGameObjects.reserve(300);
+		mCollisionObjects.reserve(300);
 	}
 
 	CollisionManager::~CollisionManager()
@@ -16,7 +16,7 @@ namespace hw
 
 	void CollisionManager::Update()
 	{
-		size_t size = mGameObjects.size();
+		size_t size = mCollisionObjects.size();
 
 		if (size <= 1)
 		{
@@ -25,7 +25,7 @@ namespace hw
 
 		for (int i = 0; i <= size - 1; i++)
 		{
-			GameObject& obj1 = *mGameObjects[i];
+			const GameObject& obj1 = mCollisionObjects[i]->GetGameObject();
 
 			if (!obj1.GetActive()) 
 			{ 
@@ -34,24 +34,23 @@ namespace hw
 
 			for (int j = i + 1; j < size; j++)
 			{
-				GameObject& obj2 = *mGameObjects[j];
+				const GameObject& obj2 = mCollisionObjects[j]->GetGameObject();
 
 				if (!obj2.GetActive()) 
 				{ 
 					continue; 
 				}
 
-				if (CheckAABBObject(obj1, obj2))
+				if (CheckAABB(obj1, obj2))
 				{
-					//생각해보기 비용큼
-					dynamic_cast<ICollision*>(&obj1)->OnCollision();
-					dynamic_cast<ICollision*>(&obj2)->OnCollision();
+					mCollisionObjects[i]->OnCollision();
+					mCollisionObjects[j]->OnCollision();
 				}
 			}
 		}
 	}
 
-	bool CollisionManager::CheckAABBObject(const GameObject& obj1, const GameObject& obj2)
+	bool CollisionManager::CheckAABB(const GameObject& obj1, const GameObject& obj2)
 	{
 		float obj1Left = obj1.GetPosition().mX;
 		float obj1Right = obj1Left + obj1.GetSize().mX;

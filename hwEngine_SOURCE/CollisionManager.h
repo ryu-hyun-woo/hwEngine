@@ -13,22 +13,23 @@ namespace hw
 		~CollisionManager();
 
 		void Update();
-		bool CheckAABBObject(const GameObject& obj1, const GameObject& obj2);
+		bool CheckAABB(const GameObject& obj1, const GameObject& obj2);
 
-		static void RegisterCollisionObject(GameObject* object)
+		static void RegisterCollisionObject(ICollision* object)
 		{
 			if (!object)
 			{
 				return;
 			}
 
-			if (std::find(mGameObjects.begin(), mGameObjects.end(), object) == mGameObjects.end()) 
+			if (std::find(mCollisionObjects.begin(), mCollisionObjects.end(), object) 
+				== mCollisionObjects.end()) 
 			{
-				mGameObjects.push_back(object);
+				mCollisionObjects.push_back(object);
 			}
 		}
 
 	private:
-		static std::vector<GameObject*> mGameObjects;
+		static std::vector<ICollision*> mCollisionObjects;
 	};
 }
